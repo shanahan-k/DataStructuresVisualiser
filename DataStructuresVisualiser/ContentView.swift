@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Spacer()
+            Text("Welcome to the data visualiser app!")
+                .font(.title)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
+                .padding(.all)
+            Spacer()
+            Text("Please choose below which structure to see")
+                .font(.title)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.center)
+                .padding(.all)
+            NavigationView() {
+                NavigationLink("Stack", destination: StackView())
+            }
+        }
+        
     }
 }
 

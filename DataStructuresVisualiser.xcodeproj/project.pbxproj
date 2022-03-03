@@ -14,6 +14,9 @@
 		4CADAD3D27D0E76A006970AE /* DataStructuresVisualiserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD3C27D0E76A006970AE /* DataStructuresVisualiserTests.swift */; };
 		4CADAD4727D0E76A006970AE /* DataStructuresVisualiserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD4627D0E76A006970AE /* DataStructuresVisualiserUITests.swift */; };
 		4CADAD4927D0E76A006970AE /* DataStructuresVisualiserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD4827D0E76A006970AE /* DataStructuresVisualiserUITestsLaunchTests.swift */; };
+		4CADAD5827D0E7FC006970AE /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD5727D0E7FC006970AE /* Stack.swift */; };
+		4CADAD5C27D0EF52006970AE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD5B27D0EF52006970AE /* Queue.swift */; };
+		4CADAD5E27D0F0F0006970AE /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CADAD5D27D0F0F0006970AE /* StackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		4CADAD4227D0E76A006970AE /* DataStructuresVisualiserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresVisualiserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CADAD4627D0E76A006970AE /* DataStructuresVisualiserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresVisualiserUITests.swift; sourceTree = "<group>"; };
 		4CADAD4827D0E76A006970AE /* DataStructuresVisualiserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresVisualiserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CADAD5727D0E7FC006970AE /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4CADAD5B27D0EF52006970AE /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4CADAD5D27D0F0F0006970AE /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		4CADAD2A27D0E769006970AE /* DataStructuresVisualiser */ = {
 			isa = PBXGroup;
 			children = (
+				4CADAD5627D0E7EE006970AE /* Data Structures */,
 				4CADAD2B27D0E769006970AE /* DataStructuresVisualiserApp.swift */,
 				4CADAD2D27D0E769006970AE /* ContentView.swift */,
+				4CADAD5D27D0F0F0006970AE /* StackView.swift */,
 				4CADAD2F27D0E76A006970AE /* Assets.xcassets */,
 				4CADAD3127D0E76A006970AE /* Preview Content */,
 			);
@@ -125,6 +133,15 @@
 				4CADAD4827D0E76A006970AE /* DataStructuresVisualiserUITestsLaunchTests.swift */,
 			);
 			path = DataStructuresVisualiserUITests;
+			sourceTree = "<group>";
+		};
+		4CADAD5627D0E7EE006970AE /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				4CADAD5727D0E7FC006970AE /* Stack.swift */,
+				4CADAD5B27D0EF52006970AE /* Queue.swift */,
+			);
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CADAD5C27D0EF52006970AE /* Queue.swift in Sources */,
 				4CADAD2E27D0E769006970AE /* ContentView.swift in Sources */,
+				4CADAD5827D0E7FC006970AE /* Stack.swift in Sources */,
 				4CADAD2C27D0E769006970AE /* DataStructuresVisualiserApp.swift in Sources */,
+				4CADAD5E27D0F0F0006970AE /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
