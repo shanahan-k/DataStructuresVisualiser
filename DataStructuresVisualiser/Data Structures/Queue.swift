@@ -11,8 +11,8 @@ import Foundation
 class Queue {
     @Published private var myQueue : [Int] = []
     
-    func push(_ element: Int) {
-        myQueue.append(element)
+    func push(_ element: [Int]) {
+        myQueue.append(contentsOf: element)
     }
     func pop() -> Int? {
         return myQueue.removeFirst()
@@ -23,7 +23,7 @@ class Queue {
         return firstElement
     }
     
-    func DisplayStack() ->[String]? {
+    func DisplayQueue() ->[String]? {
         var QueueArray = [String]()
         guard myQueue.count != 0 else {return nil}
         for i in 0...QueueArray.count {

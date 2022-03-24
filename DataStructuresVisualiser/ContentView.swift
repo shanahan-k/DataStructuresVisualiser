@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Spacer()
-            Text("Welcome to the data visualiser app!")
+            Text("`|||||||||||||`")
                 .font(.title)
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.center)
@@ -24,7 +24,9 @@ struct ContentView: View {
                 .padding(.all)
             NavigationView() {
                 NavigationLink("Stack", destination: StackView())
+                navigationTitle("Queue",destination: QueueView())
             }
+            
         }
         
     }
